@@ -1,0 +1,139 @@
+body {
+    background: black;
+ }
+ header {
+     background: no-repeat center url("https://images.squarespace-cdn.com/content/v1/58d18a1620099e5082908944/1556248122820-KHOKMNA4W6QG04Y25ED2/TAIM_Logo_Red.png?format=1500w");
+     background-size:500px 200px;
+     background-position: center;
+ }
+ .warningpara{
+    font-family: cursive;
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+    position: static;
+ }
+ h3 {
+     color: #BB0A21;
+     font-size: xx-large;
+     font-family: cursive;
+     text-align: center;
+ }
+ .login {
+        text-align: center;
+        font-size: x-large;
+        background-color: rgb(0, 0, 0) ;
+        color:#BB0A21;
+        font-family: cursive;
+        width: auto;
+        height: auto;
+        border-radius: 30px;
+    }
+    input {
+        font-family: cursive;
+      color: aliceblue;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: large;
+      vertical-align: baseline;
+      background: transparent;
+    }
+    .login_button {
+        display: inline-block;
+        font-family:cursive;
+        background-color:rgb(36, 34, 34) ;
+        color: #BB0A21;
+        font-size: small;
+        width: 150px;
+        font-weight: 2000;
+        border-radius: 8px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+.button_go {
+    display: block;
+    margin: auto;
+    font-family:cursive;
+    background-color:rgb(36, 34, 34) ;
+    color: #BB0A21;
+    font-size:large;
+    font-weight: 2000;
+    padding: 5px;
+    border-radius: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .button_go span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button_go span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button_go:hover span {
+    padding-right: 25px;
+  }
+  
+  .button_go:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .button {
+    display: inline-block;
+    font-family:cursive;
+    background-color:rgb(36, 34, 34) ;
+    color: #BB0A21;
+    font-size: small;
+    width: 150px;
+    font-weight: 2000;
+    border-radius: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .create {
+    font-family: cursive;
+    color: #BB0A21;
+    text-align: center;
+    font-size: medium;
+    background-color: rgb(0, 0, 0) ;
+    color:#BB0A21;
+    font-family: cursive;
+}

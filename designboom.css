@@ -1,0 +1,52 @@
+
+body {
+    background: black;
+ }
+header {
+    background: no-repeat center url("https://images.squarespace-cdn.com/content/v1/58d18a1620099e5082908944/1556248122820-KHOKMNA4W6QG04Y25ED2/TAIM_Logo_Red.png?format=1500w");
+    background-size:500px 200px;
+    background-position: center;
+}
+.printf {
+    color:aliceblue;
+    text-align: center;
+    font-family: cursive;
+    font-size: medium;
+}
+.information {
+    color:#BB0A21;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+}
+input {
+  font-family: cursive;
+  color: aliceblue;
+  padding: 0cqmax;
+  border: 0vmin;
+  border-radius: 5%;
+  font-size: large;
+  background-color:rgb(36, 34, 34);
+}
+select {
+    color: aliceblue;
+    font-size: large;
+    font-family: cursive;
+    padding: 0cqmax;
+    border:0vmin;
+    border-radius: 5%;
+    background-color:rgb(36, 34, 34);
+}
+fieldset {
+    color: #BB0A21;
+    background-color:rgb(36, 34, 34) ;
+    padding: 5%;
+    border: #f1dfe2;
+}
+.congradulation {
+    text-align: center;
+    color:#BB0A21;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+}
